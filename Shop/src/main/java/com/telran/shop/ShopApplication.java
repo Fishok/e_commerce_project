@@ -10,5 +10,4 @@ public class ShopApplication {
 		SpringApplication.run(ShopApplication.class, args);
 	}
 
-//		Init commit
 }
