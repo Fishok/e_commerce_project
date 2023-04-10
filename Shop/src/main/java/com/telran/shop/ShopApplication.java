@@ -9,6 +9,5 @@ public class ShopApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ShopApplication.class, args);
 	}
-
-//		Init commit
+//after first push
 }
