@@ -6,6 +6,7 @@ import java.util.List;
 
 import com.project.domain.entity.Product;
 
+
 public interface ProductInterface {
 	Product addProduct(String productId, double price, LocalDate addDate,String type, String nameCollection, String nameBrand,
             String size, String category, int discount, int amount);

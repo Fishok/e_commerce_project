@@ -7,6 +7,7 @@ import java.util.Optional;
 
 import com.project.domain.entity.Brand;
 
+
 @Repository
 public interface BrandRepo extends JpaRepository<Brand, Long> {
 

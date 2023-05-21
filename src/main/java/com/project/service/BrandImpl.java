@@ -15,6 +15,7 @@ import jakarta.transaction.Transactional;
 @Transactional
 public class BrandImpl implements BrandInterface {
 	
+	
 	private BrandRepo brandRepo;
 	@Autowired
 	 public BrandImpl(BrandRepo brandRepo) {

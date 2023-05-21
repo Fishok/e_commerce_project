@@ -7,6 +7,7 @@ import com.project.domain.entity.*;
 
 
 
+
 @Repository
 public interface CartRepo extends JpaRepository<Cart, Long> {
 	

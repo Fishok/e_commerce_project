@@ -2,6 +2,7 @@ package com.project.service;
 
 import com.project.domain.entity.User;
 
+
 public interface UserInterface {
 	User getUserByUsername(String username);
     User addUser(String username, String password, String email, boolean enabled);

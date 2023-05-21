@@ -11,6 +11,7 @@ import com.project.domain.entity.Collects;
 
 
 
+
 @Repository
 public interface CollectsRepo extends JpaRepository<Collects, Long> {
 	Collects findByNameCollection(String nameCollection);
