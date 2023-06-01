@@ -14,5 +14,6 @@ public class CartDTO {
 	String uuid;
 	List<ProductDTO> products;
 	int amount;
+	//commit
 
 }
